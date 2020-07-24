@@ -140,3 +140,14 @@ spec:
     matchLabels:
       app.kubernetes.io/name: home-assistant
       app.kubernetes.io/instance: tisdif
+# influxdb:
+#   api_version: 1
+#   host: tisdif-influxdb
+#   port: 8086
+#   database: tisdif
+#   username: admin
+#   password: ''
+#   default_measurement: state
+#   tags:
+#     instance: prod
+#     source: hass
